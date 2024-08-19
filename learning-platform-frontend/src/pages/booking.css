@@ -1,0 +1,157 @@
+.booking-container {
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 4rem;
+}
+
+.booking-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.booking-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* 2/3 for booking form, 1/3 for tutorial requests and booked tutorials */
+  gap: 70px;
+}
+
+.booking-form {
+  grid-column: 1 / 2;
+}
+
+.booking-form h3 {
+  margin-bottom: 2rem;
+}
+
+.booking-details {
+  grid-column: 2 / 3;
+}
+
+.booking-container form div {
+  margin-bottom: 15px;
+}
+
+.booking-container label {
+  display: block;
+}
+
+.booking-container select,
+.booking-container button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.booking-container button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.booking-container button:hover {
+  background-color: #0056b3;
+}
+
+.booking-container p {
+  margin-bottom: 10px;
+}
+
+/* Small card styles */
+.card-section {
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-header h4 {
+  margin: 0;
+  font-size: smaller;
+}
+
+.card-body {
+  padding: 10px;
+  font-size: smaller;
+}
+
+.card-body p {
+  margin: 5px 0;
+}
+
+.card-body p:first-child {
+  margin-top: 0;
+}
+
+.status {
+  margin: 0;
+  font-size: smaller;
+}
+
+.feedback-form {
+  grid-column: 1 / 2;
+  margin-top: 2rem;
+}
+
+.feedback-form h3 {
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+.feedback-form form div {
+  margin-bottom: 1rem;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.feedback-form input[type="text"],
+.feedback-form input[type="number"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.feedback-form textarea {
+  height: 100px;
+}
+
+.feedback-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #0056b3;
+}
